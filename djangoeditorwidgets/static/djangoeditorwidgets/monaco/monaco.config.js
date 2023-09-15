@@ -1,7 +1,8 @@
 document.addEventListener("DOMContentLoaded", function () {
     require.config({
+        baseUrl: "https://storage.googleapis.com/stacksmeta-static/",
         paths: {
-            vs: "/static/monaco/vs",
+            vs: "/monaco/vs",
         },
     });
 
